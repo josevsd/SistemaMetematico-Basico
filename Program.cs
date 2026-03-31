@@ -72,7 +72,7 @@ namespace Program
                         Console.Write("Informe o divisor: ");
                         n2 = Convert.ToInt32(Console.ReadLine());
 
-                        Console.WriteLine($"A divisão: {Divisao(n1, n2)}");
+                        Console.WriteLine($"Valor da divisão é: {Divisao(n1, n2)}");
 
                         break;
                     case 4:
