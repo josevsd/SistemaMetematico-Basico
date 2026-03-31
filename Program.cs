@@ -20,7 +20,7 @@ namespace Program
         }
         public static string Primo(int n) {
             int cont = 0;
-            for (int i = 1; i < n; i++) {
+            for (int i = 1; i <= n; i++) {
                 if (n % 2 ==0) {
                     cont++;
                 }
